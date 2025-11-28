@@ -1,0 +1,22 @@
+
+<h1>Welcome to AnupamaMenon.com Website</h1>
+Lifie Agent Demo
+
+<script>
+(function() {
+  var script = document.createElement('script');
+  script.src = 'https://agents.lifie.ai/lifiechat.js';
+  script.async = true;
+  document.head.appendChild(script);
+  
+  script.onload = function() {
+    window.AgentWidget.init({
+      agentId: 'cmi2pp6zf000310wxv1e8clv0',
+      agentNickname: 'Mia',
+      position: 'bottom-right',
+      theme: 'light',
+      color: '#ff6b6b'
+    });
+  };
+})();
+</script>
